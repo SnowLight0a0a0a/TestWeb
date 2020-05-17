@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+#own_top {
+	width: 100%;
+	padding-top: 130px;
+	padding-bottom:170px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#top_logo {
+	width: 316px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#own_block {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #333;
+	margin-top: 70px;
+}
+
+.own {
+	width: 100%;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #333;
+}
+
+.own_inner {
+	width: 930px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.own_photo {
+	width: 220px;
+	float: left;
+	margin-right: 30px;
+}
+
+.own_logo {
+	width: 137px;
+	float: left;
+	margin-top: 50px;
+	margin-right: 45px;
+}
+
+.own_txt {
+	margin-top: 38px;
+	width:250px;
+	float: left;
+	font-family: "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "Hiragino Mincho ProN", "ＭＳ Ｐ明朝", "MS PMincho", serif;
+	color: #CCC;
+	line-height: 1.6;
+	font-size: 1.1em;
+}
+
+.own_txt_en {
+	margin-top: 33px;
+	width:250px;
+	float: left;
+	font-family: "Times New Roman", Times, serif;
+	color: #BBB;
+	line-height: 1.6;
+	font-size: 1.2em;
+}
+
+.own_txt_ch {
+	margin-top: 38px;
+	width:250px;
+	float: left;
+	font-family: 宋体, SimSun, "MS Song", "MS Mincho", Arial, Helvetica, sans-serif;
+	color: #CCC;
+	line-height: 1.6;
+	font-size: 1.1em;
+}
+
+.own_btn {
+	width: 239px;
+	float: right;
+	margin-top: 64px;
+}
+
+.own a:link, .own  a:visited{
+	color: #CCC;
+	text-decoration: none;
+}
+
+.own .own_txt_en a:link, .own .own_txt_en  a:visited{
+	color: #BBB;
+	text-decoration: none;
+}
+
+.own .own_txt_ch a:link, .own  .own_txt_ch a:visited{
+	color: #CCC;
+	text-decoration: none;
+}
+
+.own  a:hover, .own  a:active{
+	color: #666;
+	text-decoration: none;
+}

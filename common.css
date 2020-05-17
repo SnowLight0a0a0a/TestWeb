@@ -1,0 +1,287 @@
+@charset "UTF-8";
+
+* {
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+html {
+	height:100%;
+}
+
+body {
+	height: 100%;
+	-webkit-text-size-adjust:none;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #333;
+}
+
+#wrap {
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+	position: relative;
+	width:expression(document.body.clientWidth < 982? "980px" : "auto");
+}
+
+@media screen and (max-width: 767px)  {
+#wrap {
+	width: 1100px;
+}
+}
+	
+body > #wrap {
+	height: auto;
+}
+
+li {
+	list-style-type: none;
+}
+
+.btn_on {
+	filter: alpha(opacity=50);
+	-moz-opacity:0.50;
+	opacity:0.50;
+}
+
+
+
+/*------------------------------*/
+/*HEADER*/
+/*------------------------------*/
+#header_b {
+	width: 100%;
+	min-width: 1120px;
+	height: 54px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #333;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #000;
+	z-index: 2;
+}
+
+#logo {
+	width: 66px;
+	height: 54px;
+	float: left;
+	padding-left: 20px;
+}
+
+#navi {
+	width: 600px;
+	height: 54px;
+	float: right;
+}
+
+#navi_en {
+	width: 480px;
+	height: 54px;
+	float: right;
+}
+
+#header_w li {
+	height: 54px;
+	float: left;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #CCC;
+}
+
+#header_b li {
+	height: 54px;
+	float: left;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #333;
+}
+
+#navi li img {
+	overflow: hidden;
+}
+
+/*OWN STORE*/
+#navi_own {
+	width: 931px;
+	height: 54px;
+	float: right;
+}
+
+/*EN CH*/
+#navi_own_en {
+	width: 811px;
+	height: 54px;
+	float: right;
+}
+
+#navi_own li img {
+	overflow: hidden;
+}
+
+#sub_own {
+	width: 450px;
+	height: 54px;
+}
+
+#sub_own ul li {
+	border: none;
+}
+
+/*FACTORY*/
+#navi_factory {
+	width: 588px;
+	height: 54px;
+	float: right;
+}
+
+#navi_factory li img {
+	overflow: hidden;
+}
+
+#sub_factory {
+	width: 347px;
+	height: 54px;
+}
+
+#sub_factory ul li {
+	border: none;
+}
+
+/*COMPANY*/
+#navi_company {
+	width: 1010px;
+	height: 54px;
+	float: right;
+}
+
+/*EN CH*/
+#navi_company_en {
+	width: 890px;
+	height: 54px;
+	float: right;
+}
+
+#navi_company li img {
+	overflow: hidden;
+}
+
+#sub_company {
+	width: 526px;
+	height: 54px;
+}
+
+#sub_company ul li {
+	border: none;
+}
+
+
+/*------------------------------*/
+/*FOOTER*/
+/*------------------------------*/
+#to_top {
+	position: absolute;
+	bottom: 50px;
+	left: 50%;
+	margin-left: -20px;
+}
+
+#footer_w, #footer_b {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+#footer_w {
+	width: 100%;
+	height: 29px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCC;
+}
+
+#footer_b {
+	width: 100%;
+	height: 29px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #333;
+}
+
+#footer_w img, #footer_b img{
+	overflow: hidden;
+	display: inline;
+}
+
+#footer_language {
+	float: left;
+	width: 144px;
+}
+
+#footer_language li {
+	float: left;
+	display: inline;
+	height: 29px;
+	overflow: hidden;
+}
+
+
+#footer_navi {
+	float: right;
+	padding-right: 35px;
+	padding-left: 2px;
+	width: 193px;
+}
+
+#footer_navi li {
+	float: left;
+	display: inline;
+	height: 29px;
+	overflow: hidden;
+}
+
+#footer_copyright {
+	float: right;
+	width: 158px;
+}
+
+
+/*------------------------------*/
+/*COVER*/
+/*------------------------------*/
+#cover {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top:0;
+	left:0;
+	z-index:3;
+}
+
+*html #cover {
+	height: auto;
+}
+
+
+/*------------------------------*/
+/*CLEAR*/
+/*------------------------------*/
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	font-size: 0;
+	line-height: 0;
+	margin: -1px 0 0 0;
+}
+
+.clearfix {
+	_overflow: visible;
+	_height: 1px;
+	zoom: 1;
+}
